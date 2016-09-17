@@ -5,8 +5,9 @@
   LunchController.$inject =[$scope];
   function LunchController($scope) {
     $scope.nimi='vaino';
+    $scope.lunch='';
     $scope.checkLunch= function () {
-      
+
     }
   }
 }
