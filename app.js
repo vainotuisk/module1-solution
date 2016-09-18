@@ -5,9 +5,13 @@
   LunchController.$inject =[$scope];
   function LunchController($scope) {
     $scope.nimi='vaino';
-    $scope.lunch='';
+    $scope.items='items';
+    $scope.numberOfItems = 0;
     $scope.checkLunch= function () {
+return $scope.items;
 
+console.log($scope.numberOfItems);
+return $scope.numberOfItems;
     }
   }
 }
