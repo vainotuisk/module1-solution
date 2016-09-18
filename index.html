@@ -21,12 +21,13 @@
              class="form-control" ng-model='items'>
          </div>
          <div class="form-group">
-             <button class="btn btn-default" ng-click="checkLunch()">Check If Too Much</button>
+             <button class="btn btn-default" ng-click="countItems()">Check If Too Much</button>
          </div>
+         <!-- <div>{{items}}<br>
+         Number of my lunch items: {{numberOfItems}}<br></div> -->
          <div class="form-group message">
            <!-- Your message can go here. -->
-           {{items}}<br>
-           Number of my lunch items: {{numberOfItems}}
+            {{customMessage}}
          </div>
    </div>
 
