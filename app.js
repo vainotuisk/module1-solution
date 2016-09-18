@@ -8,12 +8,11 @@
     $scope.items='items';
     $scope.numberOfItems = 0;
     $scope.checkLunch= function () {
-return $scope.items;
-
-console.log($scope.numberOfItems);
-return $scope.numberOfItems;
-    }
+      return $scope.items;
+      console.log('number: '+$scope.nimi);
+//return $scope.numberOfItems;
+    };
   }
-}
 
-)();
+
+})();
